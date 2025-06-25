@@ -1,0 +1,199 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    color: #000000;
+}
+/* ---------main---------- */
+main{
+    padding:4rem;
+}
+.mainimg{
+    height:500px;
+    border-radius: 2rem;
+    display:flex;
+    margin-bottom:1rem;
+}
+.main1{
+    background-image: url("mainimage1.jpeg");
+    position:relative;
+    width:50%;
+    height:100%;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    border-top-left-radius:  2rem;
+    border-bottom-left-radius:  2rem;
+    flex-wrap: wrap;
+}
+.main1 p{
+    left:10%;
+    top:25%;
+    position:relative;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: rgb(0,0,0,0.3);
+    color:white;
+    width:75%;
+    display:block;
+}
+.main1 pre{
+    left:10%;
+    top:-15%;
+    width:75%;
+    position:relative;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: rgb(0,0,0,0.3);
+    color:white;
+}
+.main2{
+    background-image: url("mainimgage2.jpeg");
+    border-top-right-radius:  2rem;
+    border-bottom-right-radius:  2rem;
+    height:100%;
+    position:relative;
+    width:50%;
+    background-size: cover ;
+}
+
+.popcontent{
+    background-color: white;
+    height:10%;
+    text-align: center;
+    padding:2rem;
+}
+.popcontent p{
+    margin:0.5rem;
+    font-size: 0.8rem;
+    opacity:0.8;
+}
+.popcontent a{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.dest{
+    /* background-color:red;
+    height:700px; */
+    height:95%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.de{
+    width:450px;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin:1rem;
+    font-size:1.3rem;
+    font-weight:600;
+    border-radius: 50%;
+    color:white;  
+}
+.de:hover{
+    box-shadow: 0px 0px 6px rgb(0,0,0,0.5); 
+}
+.dest3{
+    /* background-image: url("delhi.jpeg"); */
+    background-size: cover;
+    background-repeat: round;
+}
+.dest2{
+    /* background-image: url("maharashtra.jpeg"); */
+    background-size: cover;
+    background-repeat: round;
+}
+.dest1{
+    /* background-image: url("westbengal.jpeg"); */
+    background-size: cover ;
+    background-repeat: round;
+}
+.dest4{
+    /* background-image: url("tamilnadu.jpeg"); */
+    background-size: cover ;
+    background-repeat: round;
+}
+.info{
+    height: 10%;
+    display:flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    padding:3rem;
+}
+.info1{
+    width:50%;
+    text-align:center;
+    font-size:0.8rem;
+    margin: 1rem;
+}
+.info1 p{
+    color:rgb(0,0,0,0.7);
+    margin-top:1rem;
+}
+.info i{
+    display:block;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.client{
+    height:10%;
+    /* background-color: aqua; */
+    text-align:center;
+    padding:1rem;
+    margin-top:1rem;
+}
+.client p{
+    width:100%;
+    font-size:1rem;
+    margin:1rem;
+    color:rgb(0,0,0,0.6);
+}
+.client i{
+    display:block;
+    font-size:3rem;
+    margin:1rem;
+}
+.search{
+    text-align: center;
+    height:70px;
+}
+.search i{
+    display:inline-block;
+    height:26px;
+    font-size:1.8rem;
+    position:relative;
+    right:-4px;
+    top:7px;
+    background-color:#246A73;
+    border: 2px solid #246A73; 
+    color:rgb(255,255,255,0.8);
+    padding:0.3rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.se{
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: -10px;
+    /* width: 100%; */
+}
+.se{
+    background-color: #246A73;
+    width:20%;
+    color: white;
+    padding: 11px;
+    margin-left: -9px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.se:hover {
+    background-color: darkblue;
+}

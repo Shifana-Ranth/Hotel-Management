@@ -1,0 +1,193 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    color: #000000;
+}
+/* -----------main---------- */
+main{
+    top:30px;
+    margin:4rem;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("WhatsApp\ Image\ 2025-03-08\ at\ 7.32.55\ PM.jpeg");
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+.content {
+    width: 50%;
+    color:white;
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+}
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color:white;
+}
+.content p {
+    font-size: 1rem;
+    margin-top: 10px;
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color:white;
+}
+.login-box {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    /* background-color: aqua; */
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(50px);
+    margin-left:4%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+}
+
+.login-box label {
+    font-size: 14px;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    color:white;
+}
+
+/* input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    border:1px solid black;
+    color:white;
+} */
+.signin-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create-account {
+    text-align: center;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.create-account a {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 110%;
+    /* overflow: auto; */
+    background-color: rgba(0,0,0,0.5);
+}
+
+    /* Modal content */
+.modal-content {
+    background-color: #fff;
+    /* margin: 10% auto; */
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* Close button */
+.close {
+    background-color:transparent;
+    color: #fff;
+    /* float: right; */
+    /* text-align:right; */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: white;
+    font-size:32px;
+}
+
+    /* Input fields and button */
+#forgotForm input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    /* margin-top: 8px; */
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+}
+button[type="submitt"] {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+#forgotBtn {
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    text-align:right;
+    width: 100%;
+    text-decoration:underline;
+}
+button[type="submitt"]:hover {
+    background-color: #005f73;
+}
+.box{
+    background:white;
+    height:52px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    /* background: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    border:1px solid black; */
+    color:black;;
+}
+.box:hover{
+    border:2px solid black;
+}

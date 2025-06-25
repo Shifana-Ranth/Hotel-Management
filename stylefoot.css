@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    color: #000000;
+}
+footer{
+    bottom:0px;
+    background-color: black;
+    color:white;
+    /* height:100px; */
+    width:100vw
+}
+.logo{
+    height: 50px;
+    display: flex;
+    width: 30%;
+    font-size: 1rem;
+    /* background-color: red; */
+    padding-left: 2rem;
+}
+.logo img{
+    border-radius: 50%;
+}
+.logo p{
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: bold ;
+    padding:0.4rem
+}
+.footone{
+    /* margin-top:1rem; */
+    background-color:black;
+    text-align: center;
+    padding-top:1.4rem;
+    height:10%px;
+}
+.footone p{
+    background-color: black;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.foottwo{
+    /* height:200px; */
+    height:30vh;
+    /* background-color: aquamarine; */
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footdiv{
+    width:18%;
+    position:relative;
+    height:70%;
+    /* background-color: blue; */
+    padding:1.3rem;
+    font-weight: 600;
+}
+.footdiv ul{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    list-style: none;
+}
+.one p{
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.log{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-top: -50px;
+}
+.log p{
+    font-size: 1rem;
+    font-weight: 600;    
+}
+.one img{
+    display: inline;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.footthree{
+    background-color:white;
+    color:rgb(0,0,0,0.5);
+    /* height: 40px; */
+    height:18%;
+    text-align:center;
+    padding-top :0.7rem;
+}
+.socmedia{
+    margin-top: 1.5rem;
+}
+.socmedia i{
+    margin-right:1rem;
+}
+.socmedia i:hover{
+    font-size:1.5rem;
+}
